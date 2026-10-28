@@ -1,0 +1,13 @@
+clip,entity_type,expected_value,notes
+R01,phone,9847012345,grouped
+R02,phone,9847012345,digit by digit
+R03,otp,482913,
+R04,amount,14415,words
+R05,amount,450000,lakh
+R06,date,next month 5th (resolve from recording date),relative
+R07,policy_or_account_id,SBL2047813,alphanumeric
+R08,place_name,ഇടപ്പള്ളി|Lulu Mall,code-mix names
+R09,place_name|person_name,തൃപ്പൂണിത്തുറ|Anand,names
+R10,phone,9847112345,self-correction: last value wins
+R11,phone,9847012345,noise
+R12,policy_or_account_id,SBL2047813,fast

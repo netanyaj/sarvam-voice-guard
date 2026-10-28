@@ -1,0 +1,156 @@
+{
+ "T13_tts_src": {
+  "out": {
+   "file": "/Users/netanyajaison/sarvam-tests/audio/T13_src.wav"
+  },
+  "latency": 2.74
+ },
+ "T13": {
+  "out": {
+   "transcript": "ഇന്നലെ ഞാൻ ലു മാളിൽ പോയി. പക്ഷേ പാർക്കിംഗ് ഫുൾ ആയിരുന്നു. സോ ഞങ്ങൾ എടാപ്പള്ളി മെട്രോ സ്റ്റേഷനിൽ നിന്ന് ഓട്ടോ പിടിച്ചു.",
+   "language_code": "ml-IN",
+   "language_probability": null
+  },
+  "latency": 0.77,
+  "audio_s": 8.1
+ },
+ "T23": {
+  "out": {
+   "transcript": "ഇന്നലെ ഞാൻ ലൂ മാല്യ പോയി പക്ഷേ പാർക്കിംഗ് ഫുൾ ആയിരുന്നു സോ ഞങ്ങൾ എടാപ്പള്ളി മെട്രോ സ്റ്റേഷനിൽ നിന്ന് ഓട്ടോ പിടിച്ചു",
+   "language_code": "ml-IN",
+   "language_probability": null
+  },
+  "latency": 0.79
+ },
+ "T25": {
+  "out": {
+   "transcript": "ഇന്നലെ ഞാൻ ലു മാളിൽ പോയി. പക്ഷേ പാർക്കിംഗ് ഫുൾ ആയിരുന്നു. സോ ഞങ്ങൾ എടാപ്പള്ളി മെട്രോ സ്റ്റേഷനിൽ നിന്ന് ഓട്ടോ പിടിച്ചു.",
+   "language_code": "ml-IN",
+   "language_probability": 1.0
+  },
+  "latency": 0.71
+ },
+ "T15": {
+  "low": {
+   "out": {
+    "transcript": "ഇന്നലെ ഞാൻ ലുലു മാളിൽ പോയി. പക്ഷേ പാർക്കിംഗ് ഫുൾ ആയിരുന്നു. സോ ഞങ്ങൾ എടാപ്പള്ളി മെട്രോ സ്റ്റേഷനിൽ നിന്ന് ഓട്ടോ പിടിച്ചു.",
+    "language_code": "ml-IN",
+    "language_probability": null
+   },
+   "latency": 0.82
+  },
+  "medium": {
+   "out": {
+    "transcript": "ഇന്നലെ ഞാൻ ലൂമാല്യ പോയി. പക്ഷേ പാർക്കിംഗ് ഫുൾ ആയിരുന്നു. സോ ഞങ്ങൾ എടാപ്പള്ളി മെട്രോ സ്റ്റേഷനിൽ നിന്ന് ഓട്ടോ പിടിച്ചു.",
+    "language_code": "ml-IN",
+    "language_probability": null
+   },
+   "latency": 0.74
+  },
+  "high": {
+   "out": {
+    "transcript": "ഇന്നലെ ഞാൻ ലൂ മാളിൽ പോയി. പക്ഷേ പാർക്കിംഗ് ഫുൾ ആയിരുന്നു. സോ ഞങ്ങൾ എടാപ്പള്ളി മെട്രോ സ്റ്റേഷനിൽ നിന്ന് ഓട്ടോ പിടിച്ചു.",
+    "language_code": "ml-IN",
+    "language_probability": null
+   },
+   "latency": 0.83
+  }
+ },
+ "T14": {
+  "out": {
+   "transcript": "എൻ്റെ ഫോൺ നമ്പർ 9847012345 ആണ്. 2450 റുപ്പീസിൻ്റെ ബിൽ നവംബർ 5ന് മുമ്പ് അടയ്ക്കണം.",
+   "language_code": "ml-IN",
+   "language_probability": null
+  },
+  "latency": 0.7,
+  "audio_s": 7.7
+ },
+ "T16": {
+  "out": {
+   "error": "HTTP 400",
+   "body": {
+    "error": {
+     "message": "Audio duration exceeds the maximum limit of 30 seconds. Please use the batch API for longer audio files.",
+     "code": "invalid_request_error",
+     "request_id": "20261028_772d2bfa-c6a4-4487-b812-60529d2a3dca"
+    }
+   }
+  },
+  "latency": 1.54,
+  "audio_s": 85.7,
+  "source_text": "കൊച്ചി കേരളത്തിലെ ഏറ്റവും വലിയ നഗരങ്ങളിൽ ഒന്നാണ്. ഇവിടെ മെട്രോയും വാട്ടർ മെട്രോയും ഉണ്ട്, അതുകൊണ്ട് യാത്ര എളുപ്പമാണ്. എല്ലാ ദിവസവും രാവിലെ ആയിരക്കണക്കിന് ആളുകൾ ഇൻഫോപാർക്കിലേക്കും നഗരത്തിലെ ഓഫീസുകളിലേക്കും ജോലിക്ക് പോകുന്നു. മഴക്കാലത്ത് റോഡുകളിൽ വെള്ളം കയറുന്നത് ഒരു വലിയ പ്രശ്നമാണ്. നഗരസഭ ഓടകൾ വൃത്തിയാക്കാൻ പുതിയ പദ്ധതികൾ തുടങ്ങിയിട്ടുണ്ട്. ഫോർട്ട് കൊച്ചിയും മട്ടാഞ്ചേരിയും വിനോദസഞ്ചാരികൾക്ക് പ്രിയപ്പെട്ട സ്ഥലങ്ങളാണ്. ചീനവലകളും പഴയ കെട്ടിടങ്ങളും കാണാൻ നിരവധി പേർ എത്തുന്നു. വൈകുന്നേരം മറൈൻ ഡ്രൈവിൽ നടക്കാനും സൂര്യാസ്തമയം കാണാനും കുടുംബങ്ങൾ ഒത്തുകൂടുന്നു. അവിടത്തെ ചായക്കടകളിൽ നല്ല തിരക്കായിരിക്കും. അടുത്ത വർഷം നഗരത്തിൽ കൂടുതൽ ഇലക്ട്രിക് ബസുകൾ ഓടിത്തുടങ്ങുമെന്നാണ് പ്രതീക്ഷ. ഇത് മലിനീകരണം കുറയ്ക്കാൻ സഹായിക്കും. | (repeated twice)"
+ },
+ "T17": {
+  "out": {
+   "file": "/Users/netanyajaison/sarvam-tests/audio/T17.wav"
+  },
+  "latency": 3.18,
+  "audio_s": 10.8,
+  "stt_roundtrip": {
+   "transcript": "നിങ്ങളുടെ ഇഎംഐ പതിനാലായിരത്തി നാനൂറ്റി പതിനഞ്ച് റുപ്പീസ് ആണ്. അടുത്ത ഡ്യൂ ഡേറ്റ് നവംബർ അഞ്ച് രണ്ടായിരത്തി ഇരുപത്തിയാറ്. സംശയങ്ങൾക്ക് ഒന്ന് എട്ട് പൂജ്യം പൂജ്യം നാല് രണ്ട് അഞ്ച് ഒന്ന് രണ്ട് മൂന്ന് നാല് വിളിക്കുക.",
+   "language_code": "ml-IN",
+   "language_probability": null
+  }
+ },
+ "T18": {
+  "out": {
+   "file": "/Users/netanyajaison/sarvam-tests/audio/T18.wav"
+  },
+  "latency": 1.93,
+  "audio_s": 6.2,
+  "stt_roundtrip": {
+   "transcript": "തൃപ്പൂണിത്തുറ, കൊടുങ്ങല്ലൂർ, ഇരിങ്ങാലക്കുട എന്നിവിടങ്ങളിൽ സ്വിഗ്ഗി, സൊമാറ്റോ, ഫോൺപേ ഇപ്പോൾ ലഭ്യമാണ്.",
+   "language_code": "ml-IN",
+   "language_probability": null
+  }
+ },
+ "T19": {
+  "out": {
+   "file": "/Users/netanyajaison/sarvam-tests/audio/T19.wav"
+  },
+  "latency": 1.96,
+  "audio_s": 4.8,
+  "stt_roundtrip": {
+   "transcript": "നിങ്ങളുടെ ഓർഡർ കൺഫേം ആയിട്ടുണ്ട്. ഡെലിവറി ഇന്ന് ഈവനിംഗ് ആറ് മണിക്ക് മുമ്പ് ഉണ്ടാകും.",
+   "language_code": "ml-IN",
+   "language_probability": null
+  }
+ },
+ "T20": {
+  "out": {
+   "request_id": "20261028_514d8549-9689-47c7-89ae-4ae98e2ff2be",
+   "translated_text": "മഴ പെയ്യുന്നു, അതുകൊണ്ട് താങ്കളുടെ വിതരണം വൈകിയേക്കാം. ഈ അസൗകര്യത്തിൽ ഞങ്ങൾ ഖേദിക്കുന്നു, നിങ്ങളുടെ ക്ഷമയ്ക്ക് നന്ദി.",
+   "source_language_code": "en-IN"
+  },
+  "latency": 1.0
+ },
+ "T24": {
+  "out": {
+   "request_id": "20261028_f85b8aa3-b517-40cc-8f23-bba45fd504a7",
+   "translated_text": "അത് cats and dogs rain ആണ്, so നിങ്ങളുടെ delivery delay ആകാൻ chance ഉണ്ട്. Inconvenience-ന് ഞങ്ങൾ sincerely apologise ചെയ്യുന്നു, നിങ്ങളുടെ patience-ന് നന്ദി.",
+   "source_language_code": "en-IN"
+  },
+  "latency": 1.05
+ },
+ "T21": {
+  "out_ml": {
+   "request_id": "20261028_4e6f3115-1f61-47d6-8363-58e231c8276a",
+   "translated_text": "ദയവായി നിങ്ങളുടെ ആധാർ കാർഡ് കൊണ്ടുവരികയും അപ്പോയിന്റ്മെന്റിന് 15 മിനിറ്റ് മുമ്പ് എത്തുകയും ചെയ്യുക; വൈകിയെത്തുന്നവർക്ക് പുനഃക്രമീകരണം ആവശ്യമായി വന്നേക്കാം.",
+   "source_language_code": "en-IN"
+  },
+  "latency": 2.07,
+  "out_back_en": {
+   "request_id": "20261028_1b26c1bf-4ce2-4eac-9b62-9976ebefda54",
+   "translated_text": "Please bring your Aadhar card and arrive 15 minutes prior to your appointment; late arrivals may require a rescheduling.",
+   "source_language_code": "ml-IN"
+  }
+ },
+ "T22": {
+  "out": {
+   "request_id": "20261028_2ab57795-376f-49d3-9a86-61bb022298d8",
+   "translated_text": "നമസ്കാരം അർജുൻ, ഓർഡർ #KX-48213-ന് ₹1,299 തിരിച്ചുനൽകൽ നവംബർ 2-ന് നിങ്ങളുടെ HDFC അക്കൗണ്ടിൽ എത്തും. www.example.in/track. ൽ ട്രാക്ക് ചെയ്യുക.",
+   "source_language_code": "en-IN"
+  },
+  "latency": 1.14
+ }
+}
