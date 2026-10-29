@@ -5,3 +5,4 @@ __pycache__/
 .DS_Store
 guard/.cache/
 .pytest_cache/
+guard/data/recordings/

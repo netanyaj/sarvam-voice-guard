@@ -35,7 +35,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 7.0,
+  "check_ms": 4.9,
   "extract_s": 0.48,
   "baseline_entities": [],
   "checked": [
@@ -139,7 +139,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 12.4,
+  "check_ms": 4.1,
   "extract_s": 0.48,
   "baseline_entities": [],
   "checked": [
@@ -243,7 +243,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 4.4,
+  "check_ms": 3.9,
   "extract_s": 0.48,
   "baseline_entities": [
    {
@@ -362,7 +362,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 5.1,
+  "check_ms": 3.9,
   "extract_s": 0.48,
   "baseline_entities": [],
   "checked": [
@@ -470,7 +470,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 7.5,
+  "check_ms": 1.8,
   "extract_s": 1.32,
   "baseline_entities": [
    {
@@ -584,7 +584,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "എൻ്റെ നമ്പർ തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ് പൂജ്യം ഒന്ന് രണ്ട് മൂന്ന് നാല് അഞ്ച്",
   "guard_transcript": "എൻ്റെ നമ്പർ തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ് പൂജ്യം ഒന്ന് രണ്ട് മൂന്ന് നാല് അഞ്ച്",
-  "check_ms": 1.4,
+  "check_ms": 0.8,
   "extract_s": 0.77,
   "baseline_entities": [
    {
@@ -656,7 +656,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "എന്റെ നമ്പർ 98470 12345 ആണ്",
   "guard_transcript": "എന്റെ നമ്പർ 98470 12345 ആണ്",
-  "check_ms": 1.2,
+  "check_ms": 0.8,
   "extract_s": 0.79,
   "baseline_entities": [
    {
@@ -712,7 +712,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "എന്റെ നമ്പർ 9 8 4 7 0 1 2 3 4 5",
   "guard_transcript": "എന്റെ നമ്പർ 9 8 4 7 0 1 2 3 4 5",
-  "check_ms": 0.8,
+  "check_ms": 0.7,
   "extract_s": 0.97,
   "baseline_entities": [
    {
@@ -768,7 +768,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "OTP 4 8 2 9 1 3 ആണ്",
   "guard_transcript": "OTP 4 8 2 9 1 3 ആണ്",
-  "check_ms": 0.7,
+  "check_ms": 0.6,
   "extract_s": 0.65,
   "baseline_entities": [
    {
@@ -824,7 +824,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "എന്റെ EMI പതിനാലായിരത്തി നാനൂറ്റി പതിനഞ്ച് രൂപയാണ്",
   "guard_transcript": "എന്റെ EMI പതിനാലായിരത്തി നാനൂറ്റി പതിനഞ്ച് രൂപയാണ്",
-  "check_ms": 1.0,
+  "check_ms": 0.9,
   "extract_s": 0.72,
   "baseline_entities": [
    {
@@ -880,7 +880,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "നാലര ലക്ഷം രൂപയുടെ loan ആണ് എടുത്തത്",
   "guard_transcript": "നാലര ലക്ഷം രൂപയുടെ loan ആണ് എടുത്തത്",
-  "check_ms": 0.9,
+  "check_ms": 0.8,
   "extract_s": 0.56,
   "baseline_entities": [
    {
@@ -936,7 +936,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "അടുത്ത മാസം അഞ്ചാം തീയതി premium അടയ്ക്കാം",
   "guard_transcript": "അടുത്ത മാസം അഞ്ചാം തീയതി premium അടയ്ക്കാം",
-  "check_ms": 1.1,
+  "check_ms": 0.7,
   "extract_s": 0.58,
   "baseline_entities": [
    {
@@ -992,7 +992,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "എന്റെ policy number SBL 2 0 4 7 8 1 3 ആണ്",
   "guard_transcript": "എന്റെ policy number SBL 2 0 4 7 8 1 3 ആണ്",
-  "check_ms": 2.4,
+  "check_ms": 1.0,
   "extract_s": 0.75,
   "baseline_entities": [
    {
@@ -1052,7 +1052,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "ഇടപ്പള്ളി Lulu Mall ന്റെ അടുത്താണ് വീട്",
   "guard_transcript": "ഇടപ്പള്ളി Lulu Mall ന്റെ അടുത്താണ് വീട്",
-  "check_ms": 4.5,
+  "check_ms": 1.4,
   "extract_s": 0.55,
   "baseline_entities": [
    {
@@ -1134,7 +1134,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "തൃപ്പൂണിത്തുറ branch ലെ Anand sir ആണ് എന്നെ വിളിച്ചത്",
   "guard_transcript": "തൃപ്പൂണിത്തുറ branch ലെ Anand sir ആണ് എന്നെ വിളിച്ചത്",
-  "check_ms": 4.6,
+  "check_ms": 1.4,
   "extract_s": 0.76,
   "baseline_entities": [
    {
@@ -1219,7 +1219,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "എന്റെ നമ്പർ 98470... അല്ല, 98471 12345",
   "guard_transcript": "എന്റെ നമ്പർ 98470... അല്ല, 98471 12345",
-  "check_ms": 1.4,
+  "check_ms": 1.0,
   "extract_s": 0.9,
   "baseline_entities": [
    {
@@ -1254,6 +1254,947 @@
   "guard_scores": [
    {
     "value": "9847112345",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "recording",
+  "clip": "R01",
+  "truth": [
+   [
+    "phone",
+    "9847012345"
+   ]
+  ],
+  "note": "",
+  "today": "2026-10-29",
+  "audio": "guard/data/recordings/R01.m4a",
+  "baseline_transcript": "എന്റെ നമ്പർ 9847012345 ആണ്.",
+  "guard_transcript": "എൻ്റെ നമ്പർ 9847012345 ആണ്.",
+  "stt_s": 1.07,
+  "stt_keyterms_s": 1.01,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 2.7,
+  "extract_s": 0.76,
+  "baseline_entities": [
+   {
+    "type": "phone",
+    "raw_span": "9847012345",
+    "value": "9847012345",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "phone",
+    "raw_span": "9847012345",
+    "value": "9847012345",
+    "heard_as": "9847012345",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "9847012345",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "9847012345",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "recording",
+  "clip": "R02",
+  "truth": [
+   [
+    "phone",
+    "9847012345"
+   ]
+  ],
+  "note": "",
+  "today": "2026-10-29",
+  "audio": "guard/data/recordings/R02.m4a",
+  "baseline_transcript": "എൻ്റെ നമ്പർ 9847012345.",
+  "guard_transcript": "എൻ്റെ നമ്പർ 9847012345.",
+  "stt_s": 0.81,
+  "stt_keyterms_s": 1.42,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 3.5,
+  "extract_s": 0.62,
+  "baseline_entities": [
+   {
+    "type": "phone",
+    "raw_span": "9847012345",
+    "value": "9847012345",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "phone",
+    "raw_span": "9847012345",
+    "value": "9847012345",
+    "heard_as": "9847012345",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "9847012345",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "9847012345",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "recording",
+  "clip": "R03",
+  "truth": [
+   [
+    "otp",
+    "482913"
+   ]
+  ],
+  "note": "",
+  "today": "2026-10-29",
+  "audio": "guard/data/recordings/R03.m4a",
+  "baseline_transcript": "ഒടിപി 482913 ആണ്.",
+  "guard_transcript": "ഒടിപി 482913 ആണ്.",
+  "stt_s": 0.59,
+  "stt_keyterms_s": 0.66,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 0.9,
+  "extract_s": 0.95,
+  "baseline_entities": [
+   {
+    "type": "otp",
+    "raw_span": "482913",
+    "value": "482913",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "otp",
+    "raw_span": "482913",
+    "value": "482913",
+    "heard_as": "482913",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "482913",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "482913",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "recording",
+  "clip": "R04",
+  "truth": [
+   [
+    "amount",
+    "14415"
+   ]
+  ],
+  "note": "",
+  "today": "2026-10-29",
+  "audio": "guard/data/recordings/R04.m4a",
+  "baseline_transcript": "എന്റെ ഇഎംഐ പതിനാലായിരത്തി നാനൂറ്റി പതിനഞ്ച് രൂപയാണ്.",
+  "guard_transcript": "എന്റെ ഇഎംഐ പതിനാലായിരത്തി നാനൂറ്റി പതിനഞ്ച് രൂപയാണ്.",
+  "stt_s": 1.26,
+  "stt_keyterms_s": 0.9,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 0.9,
+  "extract_s": 0.74,
+  "baseline_entities": [
+   {
+    "type": "amount",
+    "raw_span": "പതിനാലായിരത്തി നാനൂറ്റി പതിനഞ്ച് രൂപ",
+    "value": "14415",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "amount",
+    "raw_span": "പതിനാലായിരത്തി നാനൂറ്റി പതിനഞ്ച് രൂപ",
+    "value": 14415,
+    "heard_as": "14415",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "14415",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": 14415,
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "recording",
+  "clip": "R05",
+  "truth": [
+   [
+    "amount",
+    "450000"
+   ]
+  ],
+  "note": "",
+  "today": "2026-10-29",
+  "audio": "guard/data/recordings/R05.m4a",
+  "baseline_transcript": "നാലര ലക്ഷം രൂപയുടെ ലോണാണ് എടുത്തത്.",
+  "guard_transcript": "നാലര ലക്ഷം രൂപയുടെ ലോണാണ് എടുത്തത്.",
+  "stt_s": 0.58,
+  "stt_keyterms_s": 0.66,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 2.2,
+  "extract_s": 0.82,
+  "baseline_entities": [
+   {
+    "type": "amount",
+    "raw_span": "നാലര ലക്ഷം",
+    "value": "450000",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "amount",
+    "raw_span": "നാലര ലക്ഷം",
+    "value": 450000,
+    "heard_as": "450000",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "450000",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": 450000,
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "recording",
+  "clip": "R06",
+  "truth": [
+   [
+    "date",
+    "2026-11-05"
+   ]
+  ],
+  "note": "",
+  "today": "2026-10-29",
+  "audio": "guard/data/recordings/R06.m4a",
+  "baseline_transcript": "അടുത്ത മാസം അഞ്ചാം തീയതി പ്രീമിയം അടയ്ക്കാം.",
+  "guard_transcript": "അടുത്ത മാസം അഞ്ചാം തീയതി പ്രീമിയം അടയ്ക്കാം.",
+  "stt_s": 0.64,
+  "stt_keyterms_s": 0.77,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 3.2,
+  "extract_s": 0.95,
+  "baseline_entities": [
+   {
+    "type": "date",
+    "raw_span": "അടുത്ത മാസം അഞ്ചാം തീയതി",
+    "value": "2026-11-05",
+    "date_kind": "due",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "date",
+    "raw_span": "അടുത്ത മാസം അഞ്ചാം തീയതി",
+    "value": "2026-11-05",
+    "heard_as": null,
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "2026-11-05",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "2026-11-05",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "recording",
+  "clip": "R07",
+  "truth": [
+   [
+    "policy_or_account_id",
+    "SBL2047813"
+   ]
+  ],
+  "note": "",
+  "today": "2026-10-29",
+  "audio": "guard/data/recordings/R07.m4a",
+  "baseline_transcript": "എന്റെ പോളിസി നമ്പർ എസ്.ബി.എൽ. 2047813 ആണ്.",
+  "guard_transcript": "എന്റെ പോളിസി നമ്പർ എസ്.ബി.എൽ. 2047813 ആണ്.",
+  "stt_s": 0.95,
+  "stt_keyterms_s": 0.79,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 1.2,
+  "extract_s": 0.91,
+  "baseline_entities": [
+   {
+    "type": "policy_or_account_id",
+    "raw_span": "എസ്.ബി.എൽ. 2047813",
+    "value": "SBL2047813",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "policy_or_account_id",
+    "raw_span": "എസ്.ബി.എൽ. 2047813",
+    "value": "SBL2047813",
+    "heard_as": "2047813",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "SBL2047813",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "SBL2047813",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "recording",
+  "clip": "R08",
+  "truth": [
+   [
+    "place_name",
+    "ഇടപ്പള്ളി"
+   ],
+   [
+    "place_name",
+    "Lulu Mall"
+   ]
+  ],
+  "note": "",
+  "today": "2026-10-29",
+  "audio": "guard/data/recordings/R08.m4a",
+  "baseline_transcript": "ഇടപ്പള്ളി ലുലു മാളിന്റെ അടുത്താണ് വീട്.",
+  "guard_transcript": "ഇടപ്പള്ളി ലുലു മാളിന്റെ അടുത്താണ് വീട്.",
+  "stt_s": 0.56,
+  "stt_keyterms_s": 0.63,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 2.6,
+  "extract_s": 0.29,
+  "baseline_entities": [],
+  "checked": [
+   {
+    "type": "place_name",
+    "raw_span": "ഇടപ്പള്ളി",
+    "value": "ഇടപ്പള്ളി",
+    "heard_as": null,
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "name check"
+   },
+   {
+    "type": "place_name",
+    "raw_span": "ലുലു മാളിന്റെ",
+    "value": "ലുലു മാളിന്റെ",
+    "heard_as": null,
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "name check"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": null,
+    "result": "missed"
+   },
+   {
+    "value": null,
+    "result": "missed"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "ഇടപ്പള്ളി",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   },
+   {
+    "value": "ലുലു മാളിന്റെ",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 1,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "recording",
+  "clip": "R09",
+  "truth": [
+   [
+    "place_name",
+    "തൃപ്പൂണിത്തുറ"
+   ],
+   [
+    "person_name",
+    "Anand"
+   ]
+  ],
+  "note": "",
+  "today": "2026-10-29",
+  "audio": "guard/data/recordings/R09.m4a",
+  "baseline_transcript": "തൃപ്പൂണിത്തുറ ബ്രാഞ്ചിലെ ആനന്ദ് സാറാണ് എന്നെ വിളിച്ചത്.",
+  "guard_transcript": "തൃപ്പൂണിത്തുറ ബ്രാഞ്ചിലെ ആനന്ദ് സാറാണ് എന്നെ വിളിച്ചത്.",
+  "stt_s": 0.64,
+  "stt_keyterms_s": 0.77,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 5.9,
+  "extract_s": 0.88,
+  "baseline_entities": [
+   {
+    "type": "person_name",
+    "raw_span": "ആനന്ദ്",
+    "value": "ആനന്ദ്",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   },
+   {
+    "type": "place_name",
+    "raw_span": "തൃപ്പൂണിത്തുറ",
+    "value": "തൃപ്പൂണിത്തുറ",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "person_name",
+    "raw_span": "ആനന്ദ്",
+    "value": "ആനന്ദ്",
+    "heard_as": null,
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   },
+   {
+    "type": "place_name",
+    "raw_span": "തൃപ്പൂണിത്തുറ",
+    "value": "തൃപ്പൂണിത്തുറ",
+    "heard_as": null,
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "തൃപ്പൂണിത്തുറ",
+    "result": "correct"
+   },
+   {
+    "value": "ആനന്ദ്",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "തൃപ്പൂണിത്തുറ",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 1,
+    "readback": null
+   },
+   {
+    "value": "ആനന്ദ്",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "recording",
+  "clip": "R10",
+  "truth": [
+   [
+    "phone",
+    "9847112345"
+   ]
+  ],
+  "note": "",
+  "today": "2026-10-29",
+  "audio": "guard/data/recordings/R10.m4a",
+  "baseline_transcript": "എൻ്റെ നമ്പർ 98470 അല്ല 9847112345.",
+  "guard_transcript": "എൻ്റെ നമ്പർ 98470 അല്ല 9847112345.",
+  "stt_s": 0.74,
+  "stt_keyterms_s": 0.87,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 3.1,
+  "extract_s": 0.68,
+  "baseline_entities": [
+   {
+    "type": "phone",
+    "raw_span": "9847112345",
+    "value": "9847112345",
+    "date_kind": "none",
+    "superseded_raw_spans": [
+     "98470"
+    ]
+   }
+  ],
+  "checked": [
+   {
+    "type": "phone",
+    "raw_span": "9847112345",
+    "value": "9847112345",
+    "heard_as": "9847112345",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "9847112345",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "9847112345",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "recording",
+  "clip": "R11",
+  "truth": [
+   [
+    "phone",
+    "9847012345"
+   ]
+  ],
+  "note": "",
+  "today": "2026-10-29",
+  "audio": "guard/data/recordings/R11.m4a",
+  "baseline_transcript": "എന്റെ നമ്പർ 9847012345 ആണ്.",
+  "guard_transcript": "എന്റെ നമ്പർ 9847012345 ആണ്.",
+  "stt_s": 0.82,
+  "stt_keyterms_s": 0.83,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 1.3,
+  "extract_s": 0.74,
+  "baseline_entities": [
+   {
+    "type": "phone",
+    "raw_span": "9847012345",
+    "value": "9847012345",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "phone",
+    "raw_span": "9847012345",
+    "value": "9847012345",
+    "heard_as": "9847012345",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "9847012345",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "9847012345",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "recording",
+  "clip": "R12",
+  "truth": [
+   [
+    "policy_or_account_id",
+    "SBL2047813"
+   ]
+  ],
+  "note": "",
+  "today": "2026-10-29",
+  "audio": "guard/data/recordings/R12.m4a",
+  "baseline_transcript": "എന്റെ പോളിസി നമ്പർ എസ്.ബി.എൽ. 2047813 ആണ്.",
+  "guard_transcript": "എൻ്റെ പോളിസി നമ്പർ എസ്.ബി.എൽ. 2047813 ആണ്.",
+  "stt_s": 0.68,
+  "stt_keyterms_s": 0.8,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 1.0,
+  "extract_s": 0.92,
+  "baseline_entities": [
+   {
+    "type": "policy_or_account_id",
+    "raw_span": "എസ്.ബി.എൽ. 2047813",
+    "value": "SBL2047813",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "policy_or_account_id",
+    "raw_span": "എസ്.ബി.എൽ. 2047813",
+    "value": "SBL2047813",
+    "heard_as": "2047813",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "SBL2047813",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "SBL2047813",
     "status": "ok",
     "result": "correct",
     "reasons": [],
