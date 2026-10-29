@@ -1,0 +1,91 @@
+<!doctype html>
+<!-- Source for flow.png. Re-export with:
+     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --hide-scrollbars \
+       --window-size=1240,600 --force-device-scale-factor=2 --virtual-time-budget=3000 \
+       --screenshot=flow.png flow.html -->
+<html>
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#17213A; --slate:#5A6478; --line:#C9CED8; --accent:#3A4BB0; --accent-bg:#EEF0FA;
+          --ask:#A15C07; --ok:#1E7A5A; }
+  html, body { margin: 0; background: #fff; }
+  body { width: 1240px; height: 600px; position: relative; font-family: 'Anek Latin', system-ui, sans-serif; color: var(--ink); }
+  .box { position: absolute; box-sizing: border-box; border: 1.5px solid var(--line); border-radius: 10px;
+         padding: 14px 16px; background: #fff; }
+  .box.guard { border-color: var(--accent); background: var(--accent-bg); }
+  .box h3 { margin: 0 0 6px 0; font-size: 19px; font-weight: 600; }
+  .box p { margin: 0; font-size: 14.5px; line-height: 1.38; color: var(--slate); }
+  .box p b { color: var(--ink); font-weight: 600; }
+  .box .adds { margin-top: 8px; color: var(--accent); font-weight: 500; }
+  .box .eg { margin-top: 8px; font-size: 13.5px; font-style: italic; }
+  .lbl { position: absolute; font-size: 14px; color: var(--slate); line-height: 1.35; }
+  .lbl b { font-weight: 600; }
+  .lbl.ok b { color: var(--ok); } .lbl.ask b { color: var(--ask); }
+  svg { position: absolute; left: 0; top: 0; }
+  .key { position: absolute; left: 40px; bottom: 22px; font-size: 13.5px; color: var(--slate); display: flex; gap: 22px; }
+  .key span::before { content: ""; display: inline-block; width: 14px; height: 14px; border-radius: 3px;
+                      vertical-align: -2px; margin-right: 7px; border: 1.5px solid var(--line); }
+  .key span.g::before { border-color: var(--accent); background: var(--accent-bg); }
+</style>
+</head>
+<body>
+<svg width="1240" height="600" viewBox="0 0 1240 600">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5A6478"/>
+    </marker>
+  </defs>
+  <g stroke="#5A6478" stroke-width="1.6" fill="none" marker-end="url(#a)">
+    <path d="M262 135 H298"/>
+    <path d="M542 135 H578"/>
+    <path d="M882 135 H918"/>
+    <path d="M1100 212 V328"/>
+    <path d="M960 212 V268 H640 V328"/>
+    <path d="M440 430 H410 V212"/>
+  </g>
+</svg>
+
+<div class="box" style="left:40px; top:60px; width:222px; height:150px">
+  <h3>Caller speaks</h3>
+  <p>A phone number, amount, date, policy number or name, in Malayalam-English speech.</p>
+</div>
+
+<div class="box" style="left:300px; top:60px; width:242px; height:150px">
+  <h3>Speech-to-text</h3>
+  <p>saaras:v4 writes down what it hears.</p>
+  <p class="adds">The guard sends the names as hints, in Malayalam script.</p>
+</div>
+
+<div class="box guard" style="left:580px; top:60px; width:302px; height:150px">
+  <h3>Pick out the details</h3>
+  <p>sarvam-105b lists each phone number, OTP, amount, date, policy number and name, with the exact words heard. Any number, date or known name it skips is added anyway.</p>
+</div>
+
+<div class="box guard" style="left:920px; top:60px; width:280px; height:150px">
+  <h3>Check each one</h3>
+  <p>Fixed rules, no model: 10 digits starting 6 to 9; the words re-read and compared; amounts in words and digits agree; due dates not past; policy number and names against the record.</p>
+</div>
+
+<div class="lbl ok" style="left:1112px; top:250px; width:110px"><b>Everything passes</b></div>
+<div class="lbl ask" style="left:652px; top:276px; width:200px"><b>Something looks wrong</b></div>
+
+<div class="box" style="left:980px; top:330px; width:220px; height:110px">
+  <h3>Agent acts</h3>
+  <p>Books, pays or updates with details that passed every check.</p>
+</div>
+
+<div class="box guard" style="left:440px; top:330px; width:400px; height:142px">
+  <h3>Ask the caller, in Malayalam</h3>
+  <p>One short question per detail, spoken with bulbul:v3. Digits are read one at a time.</p>
+  <p class="eg">“I heard 9 4 7 0 1, 2 3 4 5. A mobile number needs 10 digits. Could you say the number again, one digit at a time?”</p>
+</div>
+
+<div class="lbl" style="left:150px; top:330px; width:240px; text-align:right">
+  The caller answers.<br>Their answer goes through the same checks.
+</div>
+
+<div class="key"><span>What a voice agent already has</span><span class="g">What the guard adds</span></div>
+</body>
+</html>
