@@ -16,6 +16,7 @@ guard, how to run the demo, and what is not built yet.
 
 | Folder or file | What it holds |
 |---|---|
+| [`MEMO.md`](MEMO.md) | Short memo: the problem, the bet, how I'd test it with a customer, risks |
 | [`guard/`](guard/) | The guard itself, its tests, the evaluation and the demo page |
 | [`guard/eval/results.md`](guard/eval/results.md) | Every tested detail, with and without the guard |
 | [`api-tests/`](api-tests/) | The script and raw output from hand-testing the Sarvam APIs in Malayalam and English |
