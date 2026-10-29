@@ -27,7 +27,7 @@ Medians, in seconds unless marked. The extraction call is the same with or witho
 
 | Step | Median | Measured on |
 |---|---|---|
-| Rule checks (added by the guard) | 1.35 ms | 28 cases |
+| Rule checks (added by the guard) | 1.0 ms | 28 cases |
 | Making the first read-back audio (added, only when something is flagged) | 1.08 | 5 flagged cases |
 | Speech-to-text, no keyterms | 0.79 | 17 clips |
 | Speech-to-text, with keyterms | 0.84 | 17 clips |

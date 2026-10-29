@@ -35,7 +35,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 4.9,
+  "check_ms": 7.3,
   "extract_s": 0.48,
   "baseline_entities": [],
   "checked": [
@@ -67,6 +67,7 @@
     "type": "place_name",
     "raw_span": "എടപ്പള്ളി",
     "text": "ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?",
+    "text_en": "Did you mean ഇടപ്പള്ളി?",
     "audio": null,
     "tts_s": 1.08
    }
@@ -139,7 +140,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 4.1,
+  "check_ms": 6.7,
   "extract_s": 0.48,
   "baseline_entities": [],
   "checked": [
@@ -171,6 +172,7 @@
     "type": "place_name",
     "raw_span": "എടപ്പള്ളി",
     "text": "ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?",
+    "text_en": "Did you mean ഇടപ്പള്ളി?",
     "audio": null,
     "tts_s": 1.08
    }
@@ -243,7 +245,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 3.9,
+  "check_ms": 6.0,
   "extract_s": 0.48,
   "baseline_entities": [
    {
@@ -290,6 +292,7 @@
     "type": "place_name",
     "raw_span": "എടപ്പള്ളി",
     "text": "ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?",
+    "text_en": "Did you mean ഇടപ്പള്ളി?",
     "audio": null,
     "tts_s": 1.08
    }
@@ -362,7 +365,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 3.9,
+  "check_ms": 5.4,
   "extract_s": 0.48,
   "baseline_entities": [],
   "checked": [
@@ -394,6 +397,7 @@
     "type": "place_name",
     "raw_span": "എടപ്പള്ളി",
     "text": "ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?",
+    "text_en": "Did you mean ഇടപ്പള്ളി?",
     "audio": null,
     "tts_s": 1.08
    }
@@ -470,7 +474,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 1.8,
+  "check_ms": 2.3,
   "extract_s": 1.32,
   "baseline_entities": [
    {
@@ -584,7 +588,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "എൻ്റെ നമ്പർ തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ് പൂജ്യം ഒന്ന് രണ്ട് മൂന്ന് നാല് അഞ്ച്",
   "guard_transcript": "എൻ്റെ നമ്പർ തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ് പൂജ്യം ഒന്ന് രണ്ട് മൂന്ന് നാല് അഞ്ച്",
-  "check_ms": 0.8,
+  "check_ms": 0.9,
   "extract_s": 0.77,
   "baseline_entities": [
    {
@@ -616,6 +620,7 @@
     "type": "phone",
     "raw_span": "തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ് പൂജ്യം ഒന്ന് രണ്ട് മൂന്ന് നാല് അഞ്ച്",
     "text": "ഞാൻ കേട്ടത് 9 4 7 0 1, 2 3 4 5. ഒരു മൊബൈൽ നമ്പറിൽ 10 അക്കങ്ങൾ വേണം. നമ്പർ ഒരു അക്കം വീതം ഒന്നുകൂടി പറയാമോ?",
+    "text_en": "I heard 9 4 7 0 1, 2 3 4 5. A mobile number needs 10 digits. Could you say the number again, one digit at a time?",
     "audio": null,
     "tts_s": 3.45
    }
@@ -656,7 +661,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "എന്റെ നമ്പർ 98470 12345 ആണ്",
   "guard_transcript": "എന്റെ നമ്പർ 98470 12345 ആണ്",
-  "check_ms": 0.8,
+  "check_ms": 1.0,
   "extract_s": 0.79,
   "baseline_entities": [
    {
@@ -712,7 +717,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "എന്റെ നമ്പർ 9 8 4 7 0 1 2 3 4 5",
   "guard_transcript": "എന്റെ നമ്പർ 9 8 4 7 0 1 2 3 4 5",
-  "check_ms": 0.7,
+  "check_ms": 0.8,
   "extract_s": 0.97,
   "baseline_entities": [
    {
@@ -768,7 +773,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "OTP 4 8 2 9 1 3 ആണ്",
   "guard_transcript": "OTP 4 8 2 9 1 3 ആണ്",
-  "check_ms": 0.6,
+  "check_ms": 0.7,
   "extract_s": 0.65,
   "baseline_entities": [
    {
@@ -824,7 +829,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "എന്റെ EMI പതിനാലായിരത്തി നാനൂറ്റി പതിനഞ്ച് രൂപയാണ്",
   "guard_transcript": "എന്റെ EMI പതിനാലായിരത്തി നാനൂറ്റി പതിനഞ്ച് രൂപയാണ്",
-  "check_ms": 0.9,
+  "check_ms": 1.0,
   "extract_s": 0.72,
   "baseline_entities": [
    {
@@ -880,7 +885,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "നാലര ലക്ഷം രൂപയുടെ loan ആണ് എടുത്തത്",
   "guard_transcript": "നാലര ലക്ഷം രൂപയുടെ loan ആണ് എടുത്തത്",
-  "check_ms": 0.8,
+  "check_ms": 0.9,
   "extract_s": 0.56,
   "baseline_entities": [
    {
@@ -936,7 +941,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "അടുത്ത മാസം അഞ്ചാം തീയതി premium അടയ്ക്കാം",
   "guard_transcript": "അടുത്ത മാസം അഞ്ചാം തീയതി premium അടയ്ക്കാം",
-  "check_ms": 0.7,
+  "check_ms": 0.8,
   "extract_s": 0.58,
   "baseline_entities": [
    {
@@ -992,7 +997,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "എന്റെ policy number SBL 2 0 4 7 8 1 3 ആണ്",
   "guard_transcript": "എന്റെ policy number SBL 2 0 4 7 8 1 3 ആണ്",
-  "check_ms": 1.0,
+  "check_ms": 1.2,
   "extract_s": 0.75,
   "baseline_entities": [
    {
@@ -1052,7 +1057,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "ഇടപ്പള്ളി Lulu Mall ന്റെ അടുത്താണ് വീട്",
   "guard_transcript": "ഇടപ്പള്ളി Lulu Mall ന്റെ അടുത്താണ് വീട്",
-  "check_ms": 1.4,
+  "check_ms": 1.9,
   "extract_s": 0.55,
   "baseline_entities": [
    {
@@ -1134,7 +1139,7 @@
   "today": "2026-10-29",
   "baseline_transcript": "തൃപ്പൂണിത്തുറ branch ലെ Anand sir ആണ് എന്നെ വിളിച്ചത്",
   "guard_transcript": "തൃപ്പൂണിത്തുറ branch ലെ Anand sir ആണ് എന്നെ വിളിച്ചത്",
-  "check_ms": 1.4,
+  "check_ms": 1.5,
   "extract_s": 0.76,
   "baseline_entities": [
    {
@@ -1295,7 +1300,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 2.7,
+  "check_ms": 0.8,
   "extract_s": 0.76,
   "baseline_entities": [
    {
@@ -1369,7 +1374,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 3.5,
+  "check_ms": 0.6,
   "extract_s": 0.62,
   "baseline_entities": [
    {
@@ -1443,7 +1448,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 0.9,
+  "check_ms": 0.6,
   "extract_s": 0.95,
   "baseline_entities": [
    {
@@ -1517,7 +1522,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 0.9,
+  "check_ms": 0.7,
   "extract_s": 0.74,
   "baseline_entities": [
    {
@@ -1591,7 +1596,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 2.2,
+  "check_ms": 1.0,
   "extract_s": 0.82,
   "baseline_entities": [
    {
@@ -1665,7 +1670,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 3.2,
+  "check_ms": 0.7,
   "extract_s": 0.95,
   "baseline_entities": [
    {
@@ -1739,7 +1744,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 1.2,
+  "check_ms": 0.9,
   "extract_s": 0.91,
   "baseline_entities": [
    {
@@ -1817,7 +1822,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 2.6,
+  "check_ms": 1.8,
   "extract_s": 0.29,
   "baseline_entities": [],
   "checked": [
@@ -1909,7 +1914,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 5.9,
+  "check_ms": 1.5,
   "extract_s": 0.88,
   "baseline_entities": [
    {
@@ -2012,7 +2017,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 3.1,
+  "check_ms": 0.9,
   "extract_s": 0.68,
   "baseline_entities": [
    {
@@ -2088,7 +2093,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 1.3,
+  "check_ms": 0.8,
   "extract_s": 0.74,
   "baseline_entities": [
    {
@@ -2162,7 +2167,7 @@
    "Kakkanad",
    "Anand"
   ],
-  "check_ms": 1.0,
+  "check_ms": 1.3,
   "extract_s": 0.92,
   "baseline_entities": [
    {

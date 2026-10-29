@@ -75,3 +75,12 @@ def test_speak_uses_cache(tmp_path, monkeypatch):
 def test_too_long():
     with pytest.raises(ValueError):
         confirm.speak("അ" * 2501)
+
+
+def test_english_meaning_matches_each_kind():
+    today = confirm.dt.date.fromisoformat(TODAY)
+    assert confirm.question_en(flagged("phone", "9847012345"), today) == "Is your number 9 8 4 7 0, 1 2 3 4 5?"
+    assert confirm.question_en(flagged("amount", 450000), today) == "Is it ₹4,50,000?"
+    assert confirm.question_en(flagged("date", "2026-11-05"), today) == "Is it 5 November?"
+    assert confirm.question_en(flagged("place_name", "x", suggestion="ഇടപ്പള്ളി"), today) == "Did you mean ഇടപ്പള്ളി?"
+    assert confirm.question_en(flagged("unclassified_date", ""), today) == "Could you say the date again?"
