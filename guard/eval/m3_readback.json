@@ -1,0 +1,162 @@
+{
+ "T05_kavya": {
+  "checked": {
+   "type": "phone",
+   "raw_span": "തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ് പൂജ്യം ഒന്ന് രണ്ട് മൂന്ന് നാല് അഞ്ച്",
+   "value": "947012345",
+   "heard_as": "9047012345",
+   "status": "flagged",
+   "reasons": [
+    "only 9 digits heard, a mobile number has 10",
+    "'തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ്' does not combine into one number, so any digits read from it are a guess",
+    "the words heard read as 9047012345, but the number was taken as 947012345"
+   ],
+   "suggestion": null
+  },
+  "question": "ഞാൻ കേട്ടത് 9 4 7 0 1, 2 3 4 5. ഒരു മൊബൈൽ നമ്പറിൽ 10 അക്കങ്ങൾ വേണം. നമ്പർ ഒരു അക്കം വീതം ഒന്നുകൂടി പറയാമോ?",
+  "speaker": "kavya",
+  "audio": "eval/readback/T05_kavya.wav",
+  "heard_back": "ഞാൻ കേട്ടത് 947012345. ഒരു മൊബൈൽ നമ്പറിൽ പത്ത് അക്കങ്ങൾ വേണം. നമ്പർ ഒരു അക്കം വീതം ഒന്നുകൂടി പറയാമോ?"
+ },
+ "T05_anand": {
+  "checked": {
+   "type": "phone",
+   "raw_span": "തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ് പൂജ്യം ഒന്ന് രണ്ട് മൂന്ന് നാല് അഞ്ച്",
+   "value": "947012345",
+   "heard_as": "9047012345",
+   "status": "flagged",
+   "reasons": [
+    "only 9 digits heard, a mobile number has 10",
+    "'തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ്' does not combine into one number, so any digits read from it are a guess",
+    "the words heard read as 9047012345, but the number was taken as 947012345"
+   ],
+   "suggestion": null
+  },
+  "question": "ഞാൻ കേട്ടത് 9 4 7 0 1, 2 3 4 5. ഒരു മൊബൈൽ നമ്പറിൽ 10 അക്കങ്ങൾ വേണം. നമ്പർ ഒരു അക്കം വീതം ഒന്നുകൂടി പറയാമോ?",
+  "speaker": "anand",
+  "audio": "eval/readback/T05_anand.wav",
+  "heard_back": "ഞാൻ കേട്ടത് 947012345. ഒരു മൊബൈൽ നമ്പറിൽ പത്ത് അക്കങ്ങൾ വേണം. നമ്പർ ഒരു അക്കം വീതം ഒന്നുകൂടി പറയാമോ?"
+ },
+ "phone_yes_no_kavya": {
+  "checked": {
+   "type": "phone",
+   "raw_span": "r",
+   "value": "9847012345",
+   "status": "flagged",
+   "reasons": [
+    "x"
+   ]
+  },
+  "question": "നിങ്ങളുടെ നമ്പർ 9 8 4 7 0, 1 2 3 4 5 ആണോ?",
+  "speaker": "kavya",
+  "audio": "eval/readback/phone_yes_no_kavya.wav",
+  "heard_back": "നിങ്ങളുടെ നമ്പർ 9847012345 ആണോ?"
+ },
+ "phone_yes_no_anand": {
+  "checked": {
+   "type": "phone",
+   "raw_span": "r",
+   "value": "9847012345",
+   "status": "flagged",
+   "reasons": [
+    "x"
+   ]
+  },
+  "question": "നിങ്ങളുടെ നമ്പർ 9 8 4 7 0, 1 2 3 4 5 ആണോ?",
+  "speaker": "anand",
+  "audio": "eval/readback/phone_yes_no_anand.wav",
+  "heard_back": "നിങ്ങളുടെ നമ്പർ 9847012345 ആണോ?"
+ },
+ "policy_id_kavya": {
+  "checked": {
+   "type": "policy_or_account_id",
+   "raw_span": "r",
+   "value": "SBL2047831",
+   "status": "flagged",
+   "reasons": [
+    "does not match the policy or account number on file"
+   ]
+  },
+  "question": "പോളിസി നമ്പർ S B L, 2 0 4 7, 8 3 1 ആണോ?",
+  "speaker": "kavya",
+  "audio": "eval/readback/policy_id_kavya.wav",
+  "heard_back": "പോളിസി നമ്പർ എസ് ബി എൽ രണ്ട് പൂജ്യം നാല് ഏഴ് എട്ട് മൂന്ന് ഒന്ന് ആണോ"
+ },
+ "policy_id_anand": {
+  "checked": {
+   "type": "policy_or_account_id",
+   "raw_span": "r",
+   "value": "SBL2047831",
+   "status": "flagged",
+   "reasons": [
+    "does not match the policy or account number on file"
+   ]
+  },
+  "question": "പോളിസി നമ്പർ S B L, 2 0 4 7, 8 3 1 ആണോ?",
+  "speaker": "anand",
+  "audio": "eval/readback/policy_id_anand.wav",
+  "heard_back": "പോളിസി നമ്പർ എസ് ബി എൽ 2047831 ആണോ?"
+ },
+ "amount_kavya": {
+  "checked": {
+   "type": "amount",
+   "raw_span": "r",
+   "value": 450000,
+   "status": "flagged",
+   "reasons": [
+    "x"
+   ]
+  },
+  "question": "4,50,000 രൂപ ആണോ?",
+  "speaker": "kavya",
+  "audio": "eval/readback/amount_kavya.wav",
+  "heard_back": "നാല് ലക്ഷത്തി അമ്പതിനായിരം രൂപയാണ്."
+ },
+ "amount_anand": {
+  "checked": {
+   "type": "amount",
+   "raw_span": "r",
+   "value": 450000,
+   "status": "flagged",
+   "reasons": [
+    "x"
+   ]
+  },
+  "question": "4,50,000 രൂപ ആണോ?",
+  "speaker": "anand",
+  "audio": "eval/readback/amount_anand.wav",
+  "heard_back": "നാല് ലക്ഷത്തി അമ്പതിനായിരം രൂപ ആണോ?"
+ },
+ "place_kavya": {
+  "checked": {
+   "type": "place_name",
+   "raw_span": "എടാപ്പള്ളി",
+   "value": "എടാപ്പള്ളി",
+   "status": "flagged",
+   "reasons": [
+    "x"
+   ],
+   "suggestion": "ഇടപ്പള്ളി"
+  },
+  "question": "ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?",
+  "speaker": "kavya",
+  "audio": "eval/readback/place_kavya.wav",
+  "heard_back": "ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?"
+ },
+ "place_anand": {
+  "checked": {
+   "type": "place_name",
+   "raw_span": "എടാപ്പള്ളി",
+   "value": "എടാപ്പള്ളി",
+   "status": "flagged",
+   "reasons": [
+    "x"
+   ],
+   "suggestion": "ഇടപ്പള്ളി"
+  },
+  "question": "ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?",
+  "speaker": "anand",
+  "audio": "eval/readback/place_anand.wav",
+  "heard_back": "ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?"
+ }
+}
