@@ -131,3 +131,32 @@ def test_name_with_branch_word(offline_translit, record):
     t = "തൃപ്പൂണിത്തുറ branch ലെ Anand sir"
     assert one(t, ent("place_name", "തൃപ്പൂണിത്തുറ branch", "തൃപ്പൂണിത്തുറ branch"), record)["status"] == "ok"
     assert one(t, ent("person_name", "Anand sir", "Anand sir"), record)["status"] == "ok"
+
+
+# ---------- name backstop ----------
+
+T13_KEYTERMS = "ഇന്നലെ ഞാൻ ലുലു മാളിൽ പോയി. പക്ഷേ പാർക്കിംഗ് ഫുൾ ആയിരുന്നു. സോ ഞങ്ങൾ എടപ്പള്ളി മെട്രോ സ്റ്റേഷനിൽ നിന്ന് ഓട്ടോ പിടിച്ചു."
+
+
+def test_names_the_model_skipped_are_found_and_checked(record, offline_translit):
+    out = validate(T13_KEYTERMS, [], record, today=TODAY)
+    got = {(c["raw_span"], c["status"], c["suggestion"]) for c in out}
+    assert got == {("ലുലു മാളിൽ", "ok", None), ("എടപ്പള്ളി", "flagged", "ഇടപ്പള്ളി")}
+    assert all(c["found_by"] == "name check" for c in out)
+
+
+def test_name_backstop_does_not_duplicate_model_names(record, offline_translit):
+    ents = [{"type": "place_name", "raw_span": "ലുലു മാളിൽ", "value": "ലുലു മാൾ"}]
+    out = validate(T13_KEYTERMS, ents, record, today=TODAY)
+    assert [c["raw_span"] for c in out].count("ലുലു മാളിൽ") == 1
+    assert out[0]["found_by"] == "model"
+
+
+def test_name_backstop_latin_and_person(record, offline_translit):
+    out = validate("ഇടപ്പള്ളി Lulu Mall ന്റെ അടുത്താണ് വീട്, Anand sir വിളിച്ചു", [], record, today=TODAY)
+    got = {(c["type"], c["raw_span"], c["status"]) for c in out}
+    assert ("place_name", "Lulu Mall", "ok") in got and ("person_name", "Anand", "ok") in got
+
+
+def test_thanks_is_not_anand(record, offline_translit):
+    assert validate("ശരി, നന്ദി", [], record, today=TODAY) == []

@@ -1,0 +1,25 @@
+group,clip,type,expected,without_guard,without_guard_result,with_guard,with_guard_result,guard_reason,readback
+audio,T13,place_name,Lulu Mall,,missed,ലുലു മാളിൽ,correct,,
+audio,T13,place_name,Edappally,,missed,എടപ്പള്ളി,caught,heard 'എടപ്പള്ളി'; the closest name on file is 'ഇടപ്പള്ളി',ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?
+audio,T15 low noise,place_name,Lulu Mall,,missed,ലുലു മാളിൽ,correct,,
+audio,T15 low noise,place_name,Edappally,,missed,എടപ്പള്ളി,caught,heard 'എടപ്പള്ളി'; the closest name on file is 'ഇടപ്പള്ളി',ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?
+audio,T15 medium noise,place_name,Lulu Mall,ലൂമാല്യ,"wrong, passed",ലുലു മാളിൽ,correct,,
+audio,T15 medium noise,place_name,Edappally,എടാപ്പള്ളി മെട്രോ സ്റ്റേഷൻ,"wrong, passed",എടപ്പള്ളി,caught,heard 'എടപ്പള്ളി'; the closest name on file is 'ഇടപ്പള്ളി',ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?
+audio,T15 high noise,place_name,Lulu Mall,,missed,ലുലു മാളിൽ,correct,,
+audio,T15 high noise,place_name,Edappally,,missed,എടപ്പള്ളി,caught,heard 'എടപ്പള്ളി'; the closest name on file is 'ഇടപ്പള്ളി',ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?
+audio,T14,phone,9847012345,9847012345,correct,9847012345,correct,,
+audio,T14,amount,2450,2450,correct,2450,correct,,
+audio,T14,date,2026-11-05,2026-11-05,correct,2026-11-05,correct,,
+text,T05,phone,9847012345,947012345,"wrong, passed",947012345,caught,"only 9 digits heard, a mobile number has 10; 'തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ്' does not combine into one number, so any digits read from it are a guess; the words heard read as 9047012345, but the number was taken as 947012345","ഞാൻ കേട്ടത് 9 4 7 0 1, 2 3 4 5. ഒരു മൊബൈൽ നമ്പറിൽ 10 അക്കങ്ങൾ വേണം. നമ്പർ ഒരു അക്കം വീതം ഒന്നുകൂടി പറയാമോ?"
+text,R01 typed,phone,9847012345,9847012345,correct,9847012345,correct,,
+text,R02 typed,phone,9847012345,9847012345,correct,9847012345,correct,,
+text,R03 typed,otp,482913,482913,correct,482913,correct,,
+text,R04 typed,amount,14415,14415,correct,14415,correct,,
+text,R05 typed,amount,450000,450000,correct,450000,correct,,
+text,R06 typed,date,2026-11-05,2026-11-05,correct,2026-11-05,correct,,
+text,R07 typed,policy_or_account_id,SBL2047813,SBL2047813,correct,SBL2047813,correct,,
+text,R08 typed,place_name,ഇടപ്പള്ളി,ഇടപ്പള്ളി,correct,ഇടപ്പള്ളി,correct,,
+text,R08 typed,place_name,Lulu Mall,,missed,Lulu Mall,correct,,
+text,R09 typed,place_name,തൃപ്പൂണിത്തുറ,തൃപ്പൂണിത്തുറ,correct,തൃപ്പൂണിത്തുറ,correct,,
+text,R09 typed,person_name,Anand,Anand,correct,Anand,correct,,
+text,R10 typed,phone,9847112345,9847112345,correct,9847112345,correct,,

@@ -4,7 +4,7 @@
   "language_code": "ml-IN",
   "model": "saaras:v4",
   "keyterms_sent": [],
-  "latency_s": 0.67,
+  "latency_s": 1.06,
   "has_lulu": false,
   "has_edappally": false
  },
@@ -16,7 +16,7 @@
    "Lulu Mall",
    "Edappally"
   ],
-  "latency_s": 0.82,
+  "latency_s": 0.88,
   "has_lulu": false,
   "has_edappally": false
  },
@@ -28,7 +28,7 @@
    "ലുലു മാൾ",
    "ഇടപ്പള്ളി"
   ],
-  "latency_s": 0.8,
+  "latency_s": 0.82,
   "has_lulu": true,
   "has_edappally": false
  },
@@ -42,7 +42,7 @@
    "Lulu Mall",
    "Edappally"
   ],
-  "latency_s": 1.3,
+  "latency_s": 0.82,
   "has_lulu": true,
   "has_edappally": false
  }

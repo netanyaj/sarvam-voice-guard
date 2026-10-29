@@ -1,0 +1,1266 @@
+[
+ {
+  "group": "audio",
+  "clip": "T13",
+  "truth": [
+   [
+    "place_name",
+    "Lulu Mall"
+   ],
+   [
+    "place_name",
+    "Edappally"
+   ]
+  ],
+  "note": "names in code-mixed speech",
+  "today": "2026-10-29",
+  "audio": "api-tests/audio/T13_src.wav",
+  "baseline_transcript": "ഇന്നലെ ഞാൻ ലു മാളിൽ പോയി. പക്ഷേ പാർക്കിംഗ് ഫുൾ ആയിരുന്നു. സോ ഞങ്ങൾ എടാപ്പള്ളി മെട്രോ സ്റ്റേഷനിൽ നിന്ന് ഓട്ടോ പിടിച്ചു.",
+  "guard_transcript": "ഇന്നലെ ഞാൻ ലുലു മാളിൽ പോയി. പക്ഷേ പാർക്കിംഗ് ഫുൾ ആയിരുന്നു. സോ ഞങ്ങൾ എടപ്പള്ളി മെട്രോ സ്റ്റേഷനിൽ നിന്ന് ഓട്ടോ പിടിച്ചു.",
+  "stt_s": 1.06,
+  "stt_keyterms_s": 1.25,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 7.0,
+  "extract_s": 0.48,
+  "baseline_entities": [],
+  "checked": [
+   {
+    "type": "place_name",
+    "raw_span": "ലുലു മാളിൽ",
+    "value": "ലുലു മാളിൽ",
+    "heard_as": null,
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "name check"
+   },
+   {
+    "type": "place_name",
+    "raw_span": "എടപ്പള്ളി",
+    "value": "എടപ്പള്ളി",
+    "heard_as": null,
+    "status": "flagged",
+    "reasons": [
+     "heard 'എടപ്പള്ളി'; the closest name on file is 'ഇടപ്പള്ളി'"
+    ],
+    "suggestion": "ഇടപ്പള്ളി",
+    "found_by": "name check"
+   }
+  ],
+  "readbacks": [
+   {
+    "type": "place_name",
+    "raw_span": "എടപ്പള്ളി",
+    "text": "ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?",
+    "audio": null,
+    "tts_s": 1.08
+   }
+  ],
+  "baseline_scores": [
+   {
+    "value": null,
+    "result": "missed"
+   },
+   {
+    "value": null,
+    "result": "missed"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "ലുലു മാളിൽ",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   },
+   {
+    "value": "എടപ്പള്ളി",
+    "status": "flagged",
+    "result": "caught",
+    "reasons": [
+     "heard 'എടപ്പള്ളി'; the closest name on file is 'ഇടപ്പള്ളി'"
+    ],
+    "index": 1,
+    "readback": "ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?"
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "audio",
+  "clip": "T15 low noise",
+  "truth": [
+   [
+    "place_name",
+    "Lulu Mall"
+   ],
+   [
+    "place_name",
+    "Edappally"
+   ]
+  ],
+  "note": "T13 with low noise",
+  "today": "2026-10-29",
+  "audio": "api-tests/audio/T15_low.wav",
+  "baseline_transcript": "ഇന്നലെ ഞാൻ ലുലു മാളിൽ പോയി. പക്ഷേ പാർക്കിംഗ് ഫുൾ ആയിരുന്നു. സോ ഞങ്ങൾ എടാപ്പള്ളി മെട്രോ സ്റ്റേഷനിൽ നിന്ന് ഓട്ടോ പിടിച്ചു.",
+  "guard_transcript": "ഇന്നലെ ഞാൻ ലുലു മാളിൽ പോയി. പക്ഷേ പാർക്കിംഗ് ഫുൾ ആയിരുന്നു. സോ ഞങ്ങൾ എടപ്പള്ളി മെട്രോ സ്റ്റേഷനിൽ നിന്ന് ഓട്ടോ പിടിച്ചു.",
+  "stt_s": 0.73,
+  "stt_keyterms_s": 1.02,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 12.4,
+  "extract_s": 0.48,
+  "baseline_entities": [],
+  "checked": [
+   {
+    "type": "place_name",
+    "raw_span": "ലുലു മാളിൽ",
+    "value": "ലുലു മാളിൽ",
+    "heard_as": null,
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "name check"
+   },
+   {
+    "type": "place_name",
+    "raw_span": "എടപ്പള്ളി",
+    "value": "എടപ്പള്ളി",
+    "heard_as": null,
+    "status": "flagged",
+    "reasons": [
+     "heard 'എടപ്പള്ളി'; the closest name on file is 'ഇടപ്പള്ളി'"
+    ],
+    "suggestion": "ഇടപ്പള്ളി",
+    "found_by": "name check"
+   }
+  ],
+  "readbacks": [
+   {
+    "type": "place_name",
+    "raw_span": "എടപ്പള്ളി",
+    "text": "ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?",
+    "audio": null,
+    "tts_s": 1.08
+   }
+  ],
+  "baseline_scores": [
+   {
+    "value": null,
+    "result": "missed"
+   },
+   {
+    "value": null,
+    "result": "missed"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "ലുലു മാളിൽ",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   },
+   {
+    "value": "എടപ്പള്ളി",
+    "status": "flagged",
+    "result": "caught",
+    "reasons": [
+     "heard 'എടപ്പള്ളി'; the closest name on file is 'ഇടപ്പള്ളി'"
+    ],
+    "index": 1,
+    "readback": "ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?"
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "audio",
+  "clip": "T15 medium noise",
+  "truth": [
+   [
+    "place_name",
+    "Lulu Mall"
+   ],
+   [
+    "place_name",
+    "Edappally"
+   ]
+  ],
+  "note": "T13 with medium noise",
+  "today": "2026-10-29",
+  "audio": "api-tests/audio/T15_medium.wav",
+  "baseline_transcript": "ഇന്നലെ ഞാൻ ലൂമാല്യ പോയി. പക്ഷേ പാർക്കിംഗ് ഫുൾ ആയിരുന്നു. സോ ഞങ്ങൾ എടാപ്പള്ളി മെട്രോ സ്റ്റേഷനിൽ നിന്ന് ഓട്ടോ പിടിച്ചു.",
+  "guard_transcript": "ഇന്നലെ ഞാൻ ലുലു മാളിൽ പോയി. പക്ഷേ പാർക്കിംഗ് ഫുൾ ആയിരുന്നു. സോ ഞങ്ങൾ എടപ്പള്ളി മെട്രോ സ്റ്റേഷനിൽ നിന്ന് ഓട്ടോ പിടിച്ചു.",
+  "stt_s": 0.79,
+  "stt_keyterms_s": 0.84,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 4.4,
+  "extract_s": 0.48,
+  "baseline_entities": [
+   {
+    "type": "place_name",
+    "raw_span": "ലൂമാല്യ",
+    "value": "ലൂമാല്യ",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   },
+   {
+    "type": "place_name",
+    "raw_span": "എടാപ്പള്ളി മെട്രോ സ്റ്റേഷൻ",
+    "value": "എടാപ്പള്ളി മെട്രോ സ്റ്റേഷൻ",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "place_name",
+    "raw_span": "ലുലു മാളിൽ",
+    "value": "ലുലു മാളിൽ",
+    "heard_as": null,
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "name check"
+   },
+   {
+    "type": "place_name",
+    "raw_span": "എടപ്പള്ളി",
+    "value": "എടപ്പള്ളി",
+    "heard_as": null,
+    "status": "flagged",
+    "reasons": [
+     "heard 'എടപ്പള്ളി'; the closest name on file is 'ഇടപ്പള്ളി'"
+    ],
+    "suggestion": "ഇടപ്പള്ളി",
+    "found_by": "name check"
+   }
+  ],
+  "readbacks": [
+   {
+    "type": "place_name",
+    "raw_span": "എടപ്പള്ളി",
+    "text": "ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?",
+    "audio": null,
+    "tts_s": 1.08
+   }
+  ],
+  "baseline_scores": [
+   {
+    "value": "ലൂമാല്യ",
+    "result": "wrong, passed"
+   },
+   {
+    "value": "എടാപ്പള്ളി മെട്രോ സ്റ്റേഷൻ",
+    "result": "wrong, passed"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "ലുലു മാളിൽ",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   },
+   {
+    "value": "എടപ്പള്ളി",
+    "status": "flagged",
+    "result": "caught",
+    "reasons": [
+     "heard 'എടപ്പള്ളി'; the closest name on file is 'ഇടപ്പള്ളി'"
+    ],
+    "index": 1,
+    "readback": "ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?"
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "audio",
+  "clip": "T15 high noise",
+  "truth": [
+   [
+    "place_name",
+    "Lulu Mall"
+   ],
+   [
+    "place_name",
+    "Edappally"
+   ]
+  ],
+  "note": "T13 with high noise",
+  "today": "2026-10-29",
+  "audio": "api-tests/audio/T15_high.wav",
+  "baseline_transcript": "ഇന്നലെ ഞാൻ ലൂ മാളിൽ പോയി. പക്ഷേ പാർക്കിംഗ് ഫുൾ ആയിരുന്നു. സോ ഞങ്ങൾ എടാപ്പള്ളി മെട്രോ സ്റ്റേഷനിൽ നിന്ന് ഓട്ടോ പിടിച്ചു.",
+  "guard_transcript": "ഇന്നലെ ഞാൻ ലുലു മാളിൽ പോയി. പക്ഷേ പാർക്കിംഗ് ഫുൾ ആയിരുന്നു. സോ ഞങ്ങൾ എടപ്പള്ളി മെട്രോ സ്റ്റേഷനിൽ നിന്ന് ഓട്ടോ പിടിച്ചു.",
+  "stt_s": 0.87,
+  "stt_keyterms_s": 0.88,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 5.1,
+  "extract_s": 0.48,
+  "baseline_entities": [],
+  "checked": [
+   {
+    "type": "place_name",
+    "raw_span": "ലുലു മാളിൽ",
+    "value": "ലുലു മാളിൽ",
+    "heard_as": null,
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "name check"
+   },
+   {
+    "type": "place_name",
+    "raw_span": "എടപ്പള്ളി",
+    "value": "എടപ്പള്ളി",
+    "heard_as": null,
+    "status": "flagged",
+    "reasons": [
+     "heard 'എടപ്പള്ളി'; the closest name on file is 'ഇടപ്പള്ളി'"
+    ],
+    "suggestion": "ഇടപ്പള്ളി",
+    "found_by": "name check"
+   }
+  ],
+  "readbacks": [
+   {
+    "type": "place_name",
+    "raw_span": "എടപ്പള്ളി",
+    "text": "ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?",
+    "audio": null,
+    "tts_s": 1.08
+   }
+  ],
+  "baseline_scores": [
+   {
+    "value": null,
+    "result": "missed"
+   },
+   {
+    "value": null,
+    "result": "missed"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "ലുലു മാളിൽ",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   },
+   {
+    "value": "എടപ്പള്ളി",
+    "status": "flagged",
+    "result": "caught",
+    "reasons": [
+     "heard 'എടപ്പള്ളി'; the closest name on file is 'ഇടപ്പള്ളി'"
+    ],
+    "index": 1,
+    "readback": "ഇടപ്പള്ളി എന്നാണോ ഉദ്ദേശിച്ചത്?"
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "audio",
+  "clip": "T14",
+  "truth": [
+   [
+    "phone",
+    "9847012345"
+   ],
+   [
+    "amount",
+    "2450"
+   ],
+   [
+    "date",
+    "2026-11-05"
+   ]
+  ],
+  "note": "phone, amount, date",
+  "today": "2026-10-29",
+  "audio": "api-tests/audio/T14_src.wav",
+  "baseline_transcript": "എൻ്റെ ഫോൺ നമ്പർ 9847012345 ആണ്. 2450 റുപ്പീസിൻ്റെ ബിൽ നവംബർ 5ന് മുമ്പ് അടയ്ക്കണം.",
+  "guard_transcript": "എൻ്റെ ഫോൺ നമ്പർ 9847012345 ആണ്. 2450 റുപ്പീസിൻ്റെ ബിൽ നവംബർ 5ന് മുമ്പ് അടയ്ക്കണം.",
+  "stt_s": 1.06,
+  "stt_keyterms_s": 0.85,
+  "keyterms_sent": [
+   "നെതന്യാ",
+   "തൃപ്പൂണിത്തുറ",
+   "ഇടപ്പള്ളി",
+   "ലുലു മാൾ",
+   "വൈറ്റില",
+   "കാക്കനാട്",
+   "ആനന്ദ്",
+   "Netanya",
+   "Tripunithura",
+   "Edappally",
+   "Lulu Mall",
+   "Vyttila",
+   "Kakkanad",
+   "Anand"
+  ],
+  "check_ms": 7.5,
+  "extract_s": 1.32,
+  "baseline_entities": [
+   {
+    "type": "phone",
+    "raw_span": "9847012345",
+    "value": "9847012345",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   },
+   {
+    "type": "amount",
+    "raw_span": "2450",
+    "value": "2450",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   },
+   {
+    "type": "date",
+    "raw_span": "നവംബർ 5ന് മുമ്പ്",
+    "value": "2026-11-05",
+    "date_kind": "due",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "phone",
+    "raw_span": "9847012345",
+    "value": "9847012345",
+    "heard_as": "9847012345",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   },
+   {
+    "type": "amount",
+    "raw_span": "2450",
+    "value": 2450,
+    "heard_as": "2450",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   },
+   {
+    "type": "date",
+    "raw_span": "നവംബർ 5ന് മുമ്പ്",
+    "value": "2026-11-05",
+    "heard_as": null,
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "9847012345",
+    "result": "correct"
+   },
+   {
+    "value": "2450",
+    "result": "correct"
+   },
+   {
+    "value": "2026-11-05",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "9847012345",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   },
+   {
+    "value": 2450,
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 1,
+    "readback": null
+   },
+   {
+    "value": "2026-11-05",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 2,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "text",
+  "clip": "T05",
+  "transcript": "എൻ്റെ നമ്പർ തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ് പൂജ്യം ഒന്ന് രണ്ട് മൂന്ന് നാല് അഞ്ച്",
+  "truth": [
+   [
+    "phone",
+    "9847012345"
+   ]
+  ],
+  "note": "Indus voice transcript, as logged",
+  "today": "2026-10-29",
+  "baseline_transcript": "എൻ്റെ നമ്പർ തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ് പൂജ്യം ഒന്ന് രണ്ട് മൂന്ന് നാല് അഞ്ച്",
+  "guard_transcript": "എൻ്റെ നമ്പർ തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ് പൂജ്യം ഒന്ന് രണ്ട് മൂന്ന് നാല് അഞ്ച്",
+  "check_ms": 1.4,
+  "extract_s": 0.77,
+  "baseline_entities": [
+   {
+    "type": "phone",
+    "raw_span": "തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ് പൂജ്യം ഒന്ന് രണ്ട് മൂന്ന് നാല് അഞ്ച്",
+    "value": "947012345",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "phone",
+    "raw_span": "തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ് പൂജ്യം ഒന്ന് രണ്ട് മൂന്ന് നാല് അഞ്ച്",
+    "value": "947012345",
+    "heard_as": "9047012345",
+    "status": "flagged",
+    "reasons": [
+     "only 9 digits heard, a mobile number has 10",
+     "'തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ്' does not combine into one number, so any digits read from it are a guess",
+     "the words heard read as 9047012345, but the number was taken as 947012345"
+    ],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [
+   {
+    "type": "phone",
+    "raw_span": "തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ് പൂജ്യം ഒന്ന് രണ്ട് മൂന്ന് നാല് അഞ്ച്",
+    "text": "ഞാൻ കേട്ടത് 9 4 7 0 1, 2 3 4 5. ഒരു മൊബൈൽ നമ്പറിൽ 10 അക്കങ്ങൾ വേണം. നമ്പർ ഒരു അക്കം വീതം ഒന്നുകൂടി പറയാമോ?",
+    "audio": null,
+    "tts_s": 3.45
+   }
+  ],
+  "baseline_scores": [
+   {
+    "value": "947012345",
+    "result": "wrong, passed"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "947012345",
+    "status": "flagged",
+    "result": "caught",
+    "reasons": [
+     "only 9 digits heard, a mobile number has 10",
+     "'തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ്' does not combine into one number, so any digits read from it are a guess",
+     "the words heard read as 9047012345, but the number was taken as 947012345"
+    ],
+    "index": 0,
+    "readback": "ഞാൻ കേട്ടത് 9 4 7 0 1, 2 3 4 5. ഒരു മൊബൈൽ നമ്പറിൽ 10 അക്കങ്ങൾ വേണം. നമ്പർ ഒരു അക്കം വീതം ഒന്നുകൂടി പറയാമോ?"
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "text",
+  "clip": "R01 typed",
+  "transcript": "എന്റെ നമ്പർ 98470 12345 ആണ്",
+  "truth": [
+   [
+    "phone",
+    "9847012345"
+   ]
+  ],
+  "note": "recording script line, typed",
+  "today": "2026-10-29",
+  "baseline_transcript": "എന്റെ നമ്പർ 98470 12345 ആണ്",
+  "guard_transcript": "എന്റെ നമ്പർ 98470 12345 ആണ്",
+  "check_ms": 1.2,
+  "extract_s": 0.79,
+  "baseline_entities": [
+   {
+    "type": "phone",
+    "raw_span": "98470 12345",
+    "value": "9847012345",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "phone",
+    "raw_span": "98470 12345",
+    "value": "9847012345",
+    "heard_as": "9847012345",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "9847012345",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "9847012345",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "text",
+  "clip": "R02 typed",
+  "transcript": "എന്റെ നമ്പർ 9 8 4 7 0 1 2 3 4 5",
+  "truth": [
+   [
+    "phone",
+    "9847012345"
+   ]
+  ],
+  "note": "recording script line, typed",
+  "today": "2026-10-29",
+  "baseline_transcript": "എന്റെ നമ്പർ 9 8 4 7 0 1 2 3 4 5",
+  "guard_transcript": "എന്റെ നമ്പർ 9 8 4 7 0 1 2 3 4 5",
+  "check_ms": 0.8,
+  "extract_s": 0.97,
+  "baseline_entities": [
+   {
+    "type": "phone",
+    "raw_span": "9 8 4 7 0 1 2 3 4 5",
+    "value": "9847012345",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "phone",
+    "raw_span": "9 8 4 7 0 1 2 3 4 5",
+    "value": "9847012345",
+    "heard_as": "9847012345",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "9847012345",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "9847012345",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "text",
+  "clip": "R03 typed",
+  "transcript": "OTP 4 8 2 9 1 3 ആണ്",
+  "truth": [
+   [
+    "otp",
+    "482913"
+   ]
+  ],
+  "note": "recording script line, typed",
+  "today": "2026-10-29",
+  "baseline_transcript": "OTP 4 8 2 9 1 3 ആണ്",
+  "guard_transcript": "OTP 4 8 2 9 1 3 ആണ്",
+  "check_ms": 0.7,
+  "extract_s": 0.65,
+  "baseline_entities": [
+   {
+    "type": "otp",
+    "raw_span": "4 8 2 9 1 3",
+    "value": "482913",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "otp",
+    "raw_span": "4 8 2 9 1 3",
+    "value": "482913",
+    "heard_as": "482913",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "482913",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "482913",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "text",
+  "clip": "R04 typed",
+  "transcript": "എന്റെ EMI പതിനാലായിരത്തി നാനൂറ്റി പതിനഞ്ച് രൂപയാണ്",
+  "truth": [
+   [
+    "amount",
+    "14415"
+   ]
+  ],
+  "note": "recording script line, typed",
+  "today": "2026-10-29",
+  "baseline_transcript": "എന്റെ EMI പതിനാലായിരത്തി നാനൂറ്റി പതിനഞ്ച് രൂപയാണ്",
+  "guard_transcript": "എന്റെ EMI പതിനാലായിരത്തി നാനൂറ്റി പതിനഞ്ച് രൂപയാണ്",
+  "check_ms": 1.0,
+  "extract_s": 0.72,
+  "baseline_entities": [
+   {
+    "type": "amount",
+    "raw_span": "പതിനാലായിരത്തി നാനൂറ്റി പതിനഞ്ച്",
+    "value": "14415",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "amount",
+    "raw_span": "പതിനാലായിരത്തി നാനൂറ്റി പതിനഞ്ച്",
+    "value": 14415,
+    "heard_as": "14415",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "14415",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": 14415,
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "text",
+  "clip": "R05 typed",
+  "transcript": "നാലര ലക്ഷം രൂപയുടെ loan ആണ് എടുത്തത്",
+  "truth": [
+   [
+    "amount",
+    "450000"
+   ]
+  ],
+  "note": "recording script line, typed",
+  "today": "2026-10-29",
+  "baseline_transcript": "നാലര ലക്ഷം രൂപയുടെ loan ആണ് എടുത്തത്",
+  "guard_transcript": "നാലര ലക്ഷം രൂപയുടെ loan ആണ് എടുത്തത്",
+  "check_ms": 0.9,
+  "extract_s": 0.56,
+  "baseline_entities": [
+   {
+    "type": "amount",
+    "raw_span": "നാലര ലക്ഷം രൂപ",
+    "value": "450000",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "amount",
+    "raw_span": "നാലര ലക്ഷം രൂപ",
+    "value": 450000,
+    "heard_as": "450000",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "450000",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": 450000,
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "text",
+  "clip": "R06 typed",
+  "transcript": "അടുത്ത മാസം അഞ്ചാം തീയതി premium അടയ്ക്കാം",
+  "truth": [
+   [
+    "date",
+    "2026-11-05"
+   ]
+  ],
+  "note": "recording script line, typed",
+  "today": "2026-10-29",
+  "baseline_transcript": "അടുത്ത മാസം അഞ്ചാം തീയതി premium അടയ്ക്കാം",
+  "guard_transcript": "അടുത്ത മാസം അഞ്ചാം തീയതി premium അടയ്ക്കാം",
+  "check_ms": 1.1,
+  "extract_s": 0.58,
+  "baseline_entities": [
+   {
+    "type": "date",
+    "raw_span": "അടുത്ത മാസം അഞ്ചാം തീയതി",
+    "value": "2026-11-05",
+    "date_kind": "due",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "date",
+    "raw_span": "അടുത്ത മാസം അഞ്ചാം തീയതി",
+    "value": "2026-11-05",
+    "heard_as": null,
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "2026-11-05",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "2026-11-05",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "text",
+  "clip": "R07 typed",
+  "transcript": "എന്റെ policy number SBL 2 0 4 7 8 1 3 ആണ്",
+  "truth": [
+   [
+    "policy_or_account_id",
+    "SBL2047813"
+   ]
+  ],
+  "note": "recording script line, typed",
+  "today": "2026-10-29",
+  "baseline_transcript": "എന്റെ policy number SBL 2 0 4 7 8 1 3 ആണ്",
+  "guard_transcript": "എന്റെ policy number SBL 2 0 4 7 8 1 3 ആണ്",
+  "check_ms": 2.4,
+  "extract_s": 0.75,
+  "baseline_entities": [
+   {
+    "type": "policy_or_account_id",
+    "raw_span": "SBL 2 0 4 7 8 1 3",
+    "value": "SBL2047813",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "policy_or_account_id",
+    "raw_span": "SBL 2 0 4 7 8 1 3",
+    "value": "SBL2047813",
+    "heard_as": "2047813",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "SBL2047813",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "SBL2047813",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "text",
+  "clip": "R08 typed",
+  "transcript": "ഇടപ്പള്ളി Lulu Mall ന്റെ അടുത്താണ് വീട്",
+  "truth": [
+   [
+    "place_name",
+    "ഇടപ്പള്ളി"
+   ],
+   [
+    "place_name",
+    "Lulu Mall"
+   ]
+  ],
+  "note": "recording script line, typed",
+  "today": "2026-10-29",
+  "baseline_transcript": "ഇടപ്പള്ളി Lulu Mall ന്റെ അടുത്താണ് വീട്",
+  "guard_transcript": "ഇടപ്പള്ളി Lulu Mall ന്റെ അടുത്താണ് വീട്",
+  "check_ms": 4.5,
+  "extract_s": 0.55,
+  "baseline_entities": [
+   {
+    "type": "place_name",
+    "raw_span": "ഇടപ്പള്ളി",
+    "value": "ഇടപ്പള്ളി",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "place_name",
+    "raw_span": "ഇടപ്പള്ളി",
+    "value": "ഇടപ്പള്ളി",
+    "heard_as": null,
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   },
+   {
+    "type": "place_name",
+    "raw_span": "Lulu Mall",
+    "value": "Lulu Mall",
+    "heard_as": null,
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "name check"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "ഇടപ്പള്ളി",
+    "result": "correct"
+   },
+   {
+    "value": null,
+    "result": "missed"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "ഇടപ്പള്ളി",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   },
+   {
+    "value": "Lulu Mall",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 1,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "text",
+  "clip": "R09 typed",
+  "transcript": "തൃപ്പൂണിത്തുറ branch ലെ Anand sir ആണ് എന്നെ വിളിച്ചത്",
+  "truth": [
+   [
+    "place_name",
+    "തൃപ്പൂണിത്തുറ"
+   ],
+   [
+    "person_name",
+    "Anand"
+   ]
+  ],
+  "note": "recording script line, typed",
+  "today": "2026-10-29",
+  "baseline_transcript": "തൃപ്പൂണിത്തുറ branch ലെ Anand sir ആണ് എന്നെ വിളിച്ചത്",
+  "guard_transcript": "തൃപ്പൂണിത്തുറ branch ലെ Anand sir ആണ് എന്നെ വിളിച്ചത്",
+  "check_ms": 4.6,
+  "extract_s": 0.76,
+  "baseline_entities": [
+   {
+    "type": "person_name",
+    "raw_span": "Anand",
+    "value": "Anand",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   },
+   {
+    "type": "place_name",
+    "raw_span": "തൃപ്പൂണിത്തുറ",
+    "value": "തൃപ്പൂണിത്തുറ",
+    "date_kind": "none",
+    "superseded_raw_spans": []
+   }
+  ],
+  "checked": [
+   {
+    "type": "person_name",
+    "raw_span": "Anand",
+    "value": "Anand",
+    "heard_as": null,
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   },
+   {
+    "type": "place_name",
+    "raw_span": "തൃപ്പൂണിത്തുറ",
+    "value": "തൃപ്പൂണിത്തുറ",
+    "heard_as": null,
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "തൃപ്പൂണിത്തുറ",
+    "result": "correct"
+   },
+   {
+    "value": "Anand",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "തൃപ്പൂണിത്തുറ",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 1,
+    "readback": null
+   },
+   {
+    "value": "Anand",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ },
+ {
+  "group": "text",
+  "clip": "R10 typed",
+  "transcript": "എന്റെ നമ്പർ 98470... അല്ല, 98471 12345",
+  "truth": [
+   [
+    "phone",
+    "9847112345"
+   ]
+  ],
+  "note": "recording script line, typed",
+  "today": "2026-10-29",
+  "baseline_transcript": "എന്റെ നമ്പർ 98470... അല്ല, 98471 12345",
+  "guard_transcript": "എന്റെ നമ്പർ 98470... അല്ല, 98471 12345",
+  "check_ms": 1.4,
+  "extract_s": 0.9,
+  "baseline_entities": [
+   {
+    "type": "phone",
+    "raw_span": "98471 12345",
+    "value": "9847112345",
+    "date_kind": "none",
+    "superseded_raw_spans": [
+     "98470..."
+    ]
+   }
+  ],
+  "checked": [
+   {
+    "type": "phone",
+    "raw_span": "98471 12345",
+    "value": "9847112345",
+    "heard_as": "9847112345",
+    "status": "ok",
+    "reasons": [],
+    "suggestion": null,
+    "found_by": "model"
+   }
+  ],
+  "readbacks": [],
+  "baseline_scores": [
+   {
+    "value": "9847112345",
+    "result": "correct"
+   }
+  ],
+  "guard_scores": [
+   {
+    "value": "9847112345",
+    "status": "ok",
+    "result": "correct",
+    "reasons": [],
+    "index": 0,
+    "readback": null
+   }
+  ],
+  "extra_flags": []
+ }
+]

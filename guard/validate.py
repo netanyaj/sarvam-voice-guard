@@ -21,6 +21,7 @@ SUFFIXES = sorted(numwords.dechillu(s) for s in [
 SUFFIXES.sort(key=len, reverse=True)
 NAME_OK = 0.999
 NAME_SUGGEST = 0.6
+NAME_FIND = 0.82  # set from few examples: thanks->Anand 0.80 (must not match), എടാപ്പള്ളി 0.84 (must)
 
 
 def _span_check(raw_span, value_digits, what):
@@ -170,9 +171,57 @@ def check_name(e, record, names):
     return e["value"], None, ["not a name on file"], None
 
 
+def _name_score(text, form):
+    return max(difflib.SequenceMatcher(None, c, _name_key(form)).ratio() for c in _candidates(text))
+
+
+def name_backstop(transcript, entities, record, names):
+    """Names on file that appear in the transcript but were not extracted (the model often skips
+    place names in casual speech: T13, and "Lulu Mall" in R08). Every window of words as long as a
+    known name is scored against it; a score of NAME_FIND or more adds the name as a detail, so
+    validate() checks it like any other. NAME_FIND is stricter than NAME_SUGGEST because here
+    every word is a candidate: "നന്ദി" (thanks) scores 0.80 against ആനന്ദ് (Anand)."""
+    text = numwords.normalize(transcript)
+    spans = []
+    for m in re.finditer(r"[^\s.,!?;:()\"']+", text):
+        spans.append((m.start(), m.end()))
+    covered = []
+    for e in entities:
+        i = text.find(numwords.normalize(e["raw_span"]))
+        if i >= 0:
+            covered.append((i, i + len(numwords.normalize(e["raw_span"]))))
+    people = {(record or {}).get("name"), *(record or {}).get("known_people", [])}
+    have = {names[f] for e in entities if e["type"] in ("person_name", "place_name")
+            for f in names if _name_score(e["value"] or e["raw_span"], f) >= NAME_FIND}
+    found = {}
+    for form, english in names.items():
+        if english in have:
+            continue
+        n = len(form.split())
+        for k in range(len(spans) - n + 1):
+            start, end = spans[k][0], spans[k + n - 1][1]
+            if any(start < b and a < end for a, b in covered):
+                continue
+            score = _name_score(text[start:end], form)
+            if score >= NAME_FIND and score > found.get(english, (0,))[0]:
+                found[english] = (score, start, end)
+    out = []
+    for english, (_, start, end) in sorted(found.items(), key=lambda x: x[1][1]):
+        if any(start < b and a < end for a, b in covered):
+            continue
+        covered.append((start, end))
+        out.append({"type": "person_name" if english in people else "place_name", "raw_span": text[start:end],
+                    "value": text[start:end], "date_kind": "none", "superseded_raw_spans": [],
+                    "found_by": "name check"})
+    return out
+
+
 def validate(transcript, entities, record=None, extra_terms=(), today=None, language_code="ml-IN"):
     today = dt.date.fromisoformat(today) if isinstance(today, str) else (today or dt.date.today())
     names = None
+    if record or extra_terms:
+        names = known_names(record, extra_terms, language_code)
+        entities = list(entities) + name_backstop(transcript, entities, record, names)
     text = numwords.normalize(transcript)
     out = []
     for e in entities:
@@ -198,5 +247,6 @@ def validate(transcript, entities, record=None, extra_terms=(), today=None, lang
         if numwords.normalize(e["raw_span"]) not in text:
             reasons.insert(0, "these words are not in the transcript")
         out.append({"type": t, "raw_span": e["raw_span"], "value": value, "heard_as": heard,
-                    "status": "flagged" if reasons else "ok", "reasons": reasons, "suggestion": sugg})
+                    "status": "flagged" if reasons else "ok", "reasons": reasons, "suggestion": sugg,
+                    "found_by": e.get("found_by", "model")})
     return out

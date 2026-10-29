@@ -35,7 +35,8 @@
      "'തൊണ്ണൂറ്റി നാൽപ്പത്തേഴ്' does not combine into one number, so any digits read from it are a guess",
      "the words heard read as 9047012345, but the number was taken as 947012345"
     ],
-    "suggestion": null
+    "suggestion": null,
+    "found_by": "model"
    }
   ]
  },
@@ -99,7 +100,8 @@
     "heard_as": "9847012345",
     "status": "ok",
     "reasons": [],
-    "suggestion": null
+    "suggestion": null,
+    "found_by": "model"
    },
    {
     "type": "amount",
@@ -108,7 +110,8 @@
     "heard_as": "2450",
     "status": "ok",
     "reasons": [],
-    "suggestion": null
+    "suggestion": null,
+    "found_by": "model"
    },
    {
     "type": "date",
@@ -117,7 +120,8 @@
     "heard_as": null,
     "status": "ok",
     "reasons": [],
-    "suggestion": null
+    "suggestion": null,
+    "found_by": "model"
    }
   ]
  },
@@ -153,7 +157,8 @@
     "heard_as": "14415",
     "status": "ok",
     "reasons": [],
-    "suggestion": null
+    "suggestion": null,
+    "found_by": "model"
    }
   ]
  },
@@ -189,7 +194,8 @@
     "heard_as": "450000",
     "status": "ok",
     "reasons": [],
-    "suggestion": null
+    "suggestion": null,
+    "found_by": "model"
    }
   ]
  },
@@ -225,7 +231,8 @@
     "heard_as": null,
     "status": "ok",
     "reasons": [],
-    "suggestion": null
+    "suggestion": null,
+    "found_by": "model"
    }
   ]
  },
@@ -261,7 +268,8 @@
     "heard_as": "2047813",
     "status": "ok",
     "reasons": [],
-    "suggestion": null
+    "suggestion": null,
+    "found_by": "model"
    }
   ]
  },
@@ -311,7 +319,8 @@
     "heard_as": null,
     "status": "ok",
     "reasons": [],
-    "suggestion": null
+    "suggestion": null,
+    "found_by": "model"
    },
    {
     "type": "place_name",
@@ -320,7 +329,8 @@
     "heard_as": null,
     "status": "ok",
     "reasons": [],
-    "suggestion": null
+    "suggestion": null,
+    "found_by": "model"
    }
   ]
  },
@@ -360,7 +370,8 @@
     "heard_as": "9847112345",
     "status": "ok",
     "reasons": [],
-    "suggestion": null
+    "suggestion": null,
+    "found_by": "model"
    }
   ]
  }

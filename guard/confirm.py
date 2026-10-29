@@ -20,6 +20,7 @@ import json
 import os
 import re
 import sys
+import time
 
 from sarvam import CACHE_DIR, post_json
 
@@ -114,12 +115,25 @@ def speak(text, speaker=SPEAKER, pace=PACE):
     path = os.path.join(CACHE, key + ".wav")
     if os.path.exists(path):
         return path, True
+    t = time.time()
     j = post_json("/text-to-speech", {"text": text, "language_code": "ml-IN", "model": MODEL,
                                       "speaker": speaker, "pace": pace, "speech_sample_rate": 16000})
     os.makedirs(CACHE, exist_ok=True)
     with open(path, "wb") as f:
         f.write(base64.b64decode(j["audios"][0]))
+    with open(path[:-4] + ".json", "w", encoding="utf-8") as f:
+        json.dump({"text": text, "speaker": speaker, "pace": pace, "latency_s": round(time.time() - t, 2)},
+                  f, ensure_ascii=False)
     return path, False
+
+
+def speak_latency(path):
+    """Seconds the TTS call took when this audio was first made (None if not recorded)."""
+    try:
+        with open(path[:-4] + ".json", encoding="utf-8") as f:
+            return json.load(f)["latency_s"]
+    except (OSError, KeyError, ValueError):
+        return None
 
 
 def confirm(checked, audio=True, speaker=SPEAKER, pace=PACE, today=None):
